@@ -1,0 +1,126 @@
+/* Sets all font to be Poppins */
+*{
+    font-family: 'Poppins', sans-serif;
+}
+#homeText {
+    font-size: 175%;
+}
+
+#aboutText {
+    font-size: 175%;
+}
+
+a, a:hover, a:visited, a:active {
+    color: inherit;
+    text-decoration: none;
+}
+
+#wrapper {
+    /*width: 1020px; /*set the width of the wrapper*/
+    margin: 0 auto; /*center the wrapper*/
+    /* background-color: #8EDC9D; set the background color for the wrapper portion */
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #ccc;
+}
+
+/* Sets unique background color for each biome page */
+#plains-page {
+    background-color: #FFE0B5;
+}
+
+#forest-page {
+    background-color: #93D0B9;
+}
+
+#desert-page {
+    background-color: #FFCCB5;
+}
+
+#coast-page {
+    background-color: #94B1CC;
+}
+
+#about-page {
+    background-color: #888;
+}
+
+header {
+    /* width: 1020px; */
+    background-color: #444;
+}
+
+/*From here down is all of the new information that you likely don't have*/
+nav {
+    width: 101%; /*128px per box times 4 boxes with the current nav bar. This will change with each box added to the list*/
+    margin: 0 auto; /*center the navigation buttons*/
+}
+
+nav ul {
+    list-style-type: none; /*Take away the bullet points*/
+    padding: 0;
+      margin: 0;
+    overflow: hidden; /*specifies that if your content is too big for the box it will just be hidden instead of scrolling or overlapping */
+}
+
+nav li {
+    float: left; /*force the list items to float beside one another rather than be a vertical list*/
+    /* font-family: 'Oswald', sans-serif; /*you can declare any set of fonts here*/
+      font-size: 1.4em; /*makes the font bigger than the rest of the normal links*/
+      line-height: 224%; /*50px*/
+      height: 50%; /* 50px specifies how tall your navigation buttons are going to be*/
+      width: 16.6%; /* sets how wide each button will be*/
+}
+
+nav a:link, nav a:visited {
+    display: block; /*display a block around each <a> tag*/
+    /*width: 120px; /* 120px the block will be however wide you specify here*/
+    color: white; /*make the text in the <a> tags whatever color you specify here*/
+    background-color: #444; /*make the box whatever color you specify here*/
+    text-align: center; /*align the <a> tags to the center of the box*/
+    text-decoration: none; /*this takes away the underline of the <a> tag*/
+    transition: .3s background-color; /*this animates the color for when you scroll over the box*/
+}
+
+/*End of the new CSS content that is related to the nav bar*/
+/*Link to colors http://paletton.com/#uid=7350u0klzpB9lIGgcuUq5kQwpeh */
+
+/* gives each page button a unique hover color */
+#home-button:hover {
+    background-color: #777;
+}
+
+#plains-button {
+    background-color: #CC9343;
+}
+#plains-button:hover {
+    background-color: #F6C37A;
+}
+
+#forest-button {
+    background-color: #2D8A67;
+}
+#forest-button:hover {
+    background-color: #52A687;
+}
+
+#desert-button {
+    background-color: #CC6D43;
+}
+#desert-button:hover {
+    background-color: #F6A07A;
+}
+
+#coast-button {
+    background-color: #315D84;
+}
+#coast-button:hover {
+    background-color: #547C9F;
+}
+
+#about-button:hover {
+    background-color: #777;
+}
